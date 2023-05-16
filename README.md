@@ -60,7 +60,7 @@ with the necessary cable, and a USB hub.
 
 My setup looks like this:
 
-![MicroBit V2 and Serial Adapter attached to USB Hub]()
+![MicroBit V2 and Serial Adapter attached to USB Hub](setup.jpg)
 
 ## Operation
 
