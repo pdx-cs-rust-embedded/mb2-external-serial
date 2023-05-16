@@ -20,6 +20,7 @@ use serial_setup::UartePort;
 fn main() -> ! {
     let board = microbit::Board::take().unwrap();
 
+    // https://tech.microbit.org/hardware/schematic/#v2-pinmap
     let uart: Pins = Pins {
 	txd: board.pins.p0_02.into_push_pull_output(Level::High).into(),
         rxd: board.pins.p0_03.into_floating_input().into(),
