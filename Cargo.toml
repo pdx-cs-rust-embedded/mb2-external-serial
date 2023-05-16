@@ -1,0 +1,23 @@
+[package]
+name = "serial-hal-blocking-echo"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+cortex-m-rt = "0.7"
+panic-halt = "0.2.0"
+defmt-rtt = "0.4"
+nb = "1.0.0"
+embedded-hal = "0.2.6"
+
+[dependencies.microbit]
+path = "../../microbit"
+optional = true
+
+[dependencies.microbit-v2]
+path = "../../microbit-v2"
+optional = true
+
+[features]
+v1 = ["microbit"]
+v2 = ["microbit-v2"]
