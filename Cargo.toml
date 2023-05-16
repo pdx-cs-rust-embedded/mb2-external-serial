@@ -11,11 +11,11 @@ nb = "1.0.0"
 embedded-hal = "0.2.6"
 
 [dependencies.microbit]
-path = "../../microbit"
+version = "0.13"
 optional = true
 
 [dependencies.microbit-v2]
-path = "../../microbit-v2"
+version = "0.13"
 optional = true
 
 [features]
